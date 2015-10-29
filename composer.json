@@ -1,5 +1,5 @@
 {
-  "name": "metamodels/attribute_timestamp",
+  "name": "designs2/attribute_timestamp",
   "description": "MetaModels attribute for timestamps",
   "keywords": [
     "contao",
@@ -28,20 +28,20 @@
     "issues": "https://github.com/MetaModels/attribute_timestamp/issues",
     "wiki": "http://de.contaowiki.org/MetaModels",
     "irc": "irc://irc.freenode.org/contao.mm",
-    "source": "https://github.com/MetaModels/attribute_timestamp"
+    "source": "https://github.com/designs2/attribute_timestamp"
   },
   "require": {
     "php": ">=5.3",
     "contao/core": ">=3.2,<3.6",
-    "contao-community-alliance/composer-plugin": "~2.0",
-    "metamodels/core": "~2.0",
-    "metamodels/attribute_numeric": "~2.0",
-    "contao-community-alliance/events-contao-bindings": "~3.2"
+    "contao-community-alliance/composer-plugin": "*",
+    "metamodels/core": "*",
+    "metamodels/attribute_numeric": "*",
+    "contao-community-alliance/events-contao-bindings": "*"
   },
   "require-dev": {
-    "cyberspectrum/contao-toolbox": "~0.6",
-    "phpcq/all-tasks": "~1.0",
-    "metamodels/base-unit-tests": "~1.0"
+    "cyberspectrum/contao-toolbox": "*",
+    "phpcq/all-tasks": "*",
+    "metamodels/base-unit-tests": "*"
   },
   "conflict": {
     "contao/core": "3.4.0"
